@@ -18,7 +18,7 @@
             margin: 0;
             padding: 0;
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            background: linear-gradient(135deg, #006400, #28a745);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -39,7 +39,7 @@
         .container h1 {
             margin-bottom: 30px;
             font-size: 2.2rem;
-            color: #1e3a8a;
+            color: #28a745;
         }
 
         .form-group {
@@ -52,7 +52,7 @@
             top: 50%;
             left: 20px;
             transform: translateY(-50%);
-            color: #3b82f6;
+            color: #28a745;
             font-size: 1.1rem;
         }
 
@@ -66,14 +66,14 @@
         }
 
         .form-group input:focus {
-            border-color: #3b82f6;
+            border-color: #28a745;
             outline: none;
         }
 
         button {
             width: 100%;
             padding: 14px;
-            background: #1e3a8a;
+            background: #28a745;
             color: #fff;
             border: none;
             border-radius: 8px;
@@ -84,28 +84,12 @@
         }
 
         button:hover {
-            background: #2563eb;
+            background: #218838;
             transform: translateY(-2px);
         }
 
         button:active {
             transform: translateY(0);
-        }
-
-        .redirect {
-            margin-top: 25px;
-            font-size: 1rem;
-            color: #555;
-        }
-
-        .redirect a {
-            color: #3b82f6;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .redirect a:hover {
-            text-decoration: underline;
         }
 
         .message {
@@ -145,7 +129,7 @@
                 font-size: 1rem;
             }
 
-            .redirect {
+            .message {
                 font-size: 0.95rem;
             }
         }
@@ -168,9 +152,7 @@
             </div>
             <button type="submit">Entrar</button>
         </form>
-        <div class="redirect">
-            Não tem uma conta? <a href="registrar.html">Registre-se</a>
-        </div>
+        <!-- A opção de registrar foi removida conforme solicitado -->
         <div id="message" class="message" role="alert" aria-live="assertive"></div>
     </div>
 
